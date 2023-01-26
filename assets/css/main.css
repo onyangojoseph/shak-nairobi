@@ -3722,7 +3722,7 @@ input, select, textarea {
 			list-style: none;
 			margin-bottom: 0;
 			padding-left: 0;
-			text-transform: uppercase;
+			text-transform: none;
 		}
 
 			#nav ul.links li {
@@ -3755,7 +3755,7 @@ input, select, textarea {
 					}
 
 						#nav ul.links li.active a:hover {
-							color: #18bfef !important;
+							color: #d1ff03 !important;
 						}
 
 		#nav ul.icons {
