@@ -70,9 +70,15 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
-/* intro */
+/* background images */
 .intro {
 	background-image: url("/images/2.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.story1 {
+	background-image: url("/images/1.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -3596,8 +3602,8 @@ input, select, textarea {
 		}
 
 			#header .logo:hover {
-				border-color: #18bfef !important;
-				color: #18bfef !important;
+				border-color: yellow !important;
+				color: yellow !important;
 			}
 
 		@media screen and (max-width: 980px) {
