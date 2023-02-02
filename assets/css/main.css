@@ -72,13 +72,12 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
-/* background images */
+/* images */
 .intro {
 	background-image: url("/images/2.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	opacity: 0.7;
 }
 .story1 {
 	background-image: url("/images/1.png");
@@ -207,7 +206,77 @@ p {
 	text-align: justify;
 	margin: 0 0 2rem 0;
 }
+/* subtitles */
+.subtitle {
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	font-weight: 900;
+	line-height: 1.5;
+	letter-spacing: 0.075em;
+	text-transform: none;
+	margin: 0 0 1rem 0;
+	color: rgb(3, 52, 61);
+}
+.subtitle2 {
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	font-weight: 900;
+	line-height: 1.5;
+	letter-spacing: 0.075em;
+	text-transform: none;
+	margin: 0 0 1rem 0;
+	color: black;
+}
+.subtitle3 {
+	color: rgb(0, 113, 128);
+}
 
+/* text */
+.dark {
+	color: #000000;
+}
+.purple {
+	color: purple;
+}
+.bold {
+	font-weight: 900;
+}
+.small {
+	font-size: small;
+}
+.medium {
+	font-size: medium;
+}
+/* layout */
+.left {
+	text-align: left;
+}
+.center {
+	text-align: center;
+}
+.right {
+	text-align: right;
+}
+/* small logo */
+.tiny-logo {
+	width: 22rem;
+	height: 5rem;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.side-gap {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+/* folic acid section */
+.folic-acid {
+	background-image: url("/images/4.jpg");
+	background-repeat: no-repeat;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;	
+}
 h1, h2, h3, h4, h5, h6 {
 	font-family: "Source Sans Pro", Helvetica, sans-serif;
 	font-weight: 900;
@@ -320,8 +389,8 @@ input, select, textarea {
 }
 
 a {
-	color: #212931;
-	border-bottom-color: rgba(33, 41, 49, 0.5);
+	color: #0f79e2;
+	border-bottom-color: transparent;
 }
 
 a:hover {
@@ -2232,9 +2301,13 @@ input[type="reset"],
 input[type="button"],
 button,
 .button {
-	background-color: transparent;
-	box-shadow: inset 0 0 0 2px #212931;
-	color: #212931 !important;
+	background-color: black;
+	box-shadow: inset 0 0 0 2px yellow;
+	color: yellow !important;
+}
+.blockquote-btn {
+	display: flex;
+	justify-content: center;
 }
 
 input[type="submit"]:hover,
@@ -2242,9 +2315,9 @@ input[type="reset"]:hover,
 input[type="button"]:hover,
 button:hover,
 .button:hover {
-	background-color: black;
-	box-shadow: inset 0 0 0 2px yellow;
-	color: yellow !important;
+	background-color: transparent;
+	box-shadow: inset 0 0 0 2px black;
+	color: black !important;
 }
 
 input[type="submit"].primary,
@@ -3262,7 +3335,7 @@ table.alt tbody tr td {
 	width: 100%;
 	height: 100%;
 	background-color: white;
-	background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/2.jpg");
+	background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/.jpg");
 	background-size: auto,								auto,														100% auto;
 	background-position: center,								center,														top center;
 	background-repeat: repeat,								no-repeat,													no-repeat;
@@ -3555,7 +3628,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 }
 
 #header a {
-	color: #ffffff;
+	color: #000000;
 	border-bottom-color: rgba(255, 255, 255, 0.5);
 }
 
@@ -3592,7 +3665,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 	transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, transform 0.5s ease, visibility 0.5s;
 	pointer-events: auto;
 	border-style: solid;
-	border-color: #ffffff;
+	border-color: #000000;
 	border-width: 5px !important;
 	font-family: "Source Sans Pro", Helvetica, sans-serif;
 	font-size: 2.25rem;
@@ -3605,6 +3678,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 }
 
 #header .logo:hover {
+	background-color: #000000;
 	border-color: yellow !important;
 	color: yellow !important;
 }
