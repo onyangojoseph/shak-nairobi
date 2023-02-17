@@ -73,12 +73,6 @@ input, select, textarea {
 	appearance: none;
 }
 /* images */
-.intro {
-	background-image: url("/images/2.jpg");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-}
 .story1 {
 	background-image: url("/images/1.png");
 	background-repeat: no-repeat;
@@ -263,12 +257,9 @@ p {
 	margin-right: auto;
 	display: block;
 }
-.side-gap {
-	padding-left: 15px;
-	padding-right: 15px;
-}
 /* folic acid section */
 .folic-acid {
+	padding: 20px 30px;
 	background-image: url("/images/4.jpg");
 	background-repeat: no-repeat;
 	background-repeat: no-repeat;
@@ -3350,7 +3341,8 @@ table.alt tbody tr td {
 		height: 100vh;
 	}
 
-#wrapper.fade-in:before {
+#wrapper.
+:before {
 	pointer-events: none;
 	-moz-transition: opacity 1s ease-in-out;
 	-webkit-transition: opacity 1s ease-in-out;
@@ -3360,7 +3352,7 @@ table.alt tbody tr td {
 	-webkit-transition-delay: 0.75s;
 	-ms-transition-delay: 0.75s;
 	transition-delay: 0.75s;
-	background: #1e252d;
+	background: #2d1e1eee;
 	content: '';
 	display: block;
 	height: 100%;
@@ -3413,6 +3405,10 @@ body.is-preload #wrapper.fade-in:before {
 	text-align: center;
 	z-index: 1;
 	min-height: 100vh;
+	background-image: url("/images/2.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 
 #intro input, #intro select, #intro textarea {
